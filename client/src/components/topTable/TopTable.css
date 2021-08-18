@@ -1,0 +1,40 @@
+.containerTop {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerTop h2 {
+  margin-bottom: 0px;
+}
+
+.containerTop--table {
+  width: 90%;
+  max-width: 600px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  border-bottom: 2px solid #dddddd;
+}
+td {
+  border-bottom: 1px solid #dddddd;
+}
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+@media (max-width: 425px) {
+  .containerTop h2 {
+    font-size: 1rem;
+  }
+  td,
+  th {
+    font-size: 0.8rem;
+  }
+}
