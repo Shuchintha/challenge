@@ -11,7 +11,7 @@ app.use(cors())
 const port = process.env.PORT || 3000
 
 //static files
-app.use(express.static('public'))
+app.use(express.static('build'))
 
 // register routes
 registerRoutes(app)
