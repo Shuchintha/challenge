@@ -10,6 +10,9 @@ app.use(cors())
 // server config
 const port = process.env.PORT || 3000
 
+//S
+app.use(express.static('build'))
+
 // register routes
 registerRoutes(app)
 
