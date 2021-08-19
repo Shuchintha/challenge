@@ -4,8 +4,8 @@
   "description": "coding challenge",
   "main": "./src/index.js",
   "scripts": {
-    "start": "concurrently \"node ./src/index.js\" \"npm run dev:client\"",
-    "dev:client": "webpack"
+    "start": "concurrently \"npm run build:client\" \"node ./src/index.js\" ",
+    "build:client": "webpack"
   },
   "author": "walmex-team",
   "license": "ISC",
